@@ -1,0 +1,29 @@
+local kickTable = {}
+
+local function addKickReasons(userIdReasons)
+    for userId, reason in pairs(userIdReasons) do
+        kickTable[userId] = reason
+    end
+end
+
+local userIdReasons = {
+	[65252791] = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer",
+	[1661390685] = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer",
+	[817389658] = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer",
+	[2723660087] = "Blacklisted: Staff using script?, Buy Unblacklist On discord.gg/lyzer",
+	[788605395] = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer",
+	[5299444163] = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer",
+	[568319657] = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer",
+	[997159533] = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer",
+}
+addKickReasons(userIdReasons)
+
+local function kickIfBlacklisted()
+    local player = game.Players.LocalPlayer
+    if kickTable[player.UserId] then
+        player:Kick(kickTable[player.UserId])
+        toclipboard("discord.gg/lyzer")
+    end
+end
+
+kickIfBlacklisted()
