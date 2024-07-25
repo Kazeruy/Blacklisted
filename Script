@@ -15,6 +15,7 @@ local userIdReasons = {
 	[5299444163] = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer",
 	[568319657] = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer",
 	[997159533] = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer",
+	{ userId = 213123, reason = "reporting players" },
 }
 addKickReasons(userIdReasons)
 
