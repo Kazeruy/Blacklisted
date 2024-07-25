@@ -1,21 +1,22 @@
 local kickTable = {}
 
 local function addKickReasons(userIdReasons)
-    for userId, reason in pairs(userIdReasons) do
-        kickTable[userId] = reason
+    for _, entry in ipairs(userIdReasons) do
+        if type(entry) == "table" and entry.userId and entry.reason then
+            kickTable[entry.userId] = entry.reason
+        end
     end
 end
 
 local userIdReasons = {
-	[65252791] = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer",
-	[1661390685] = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer",
-	[817389658] = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer",
-	[2723660087] = "Blacklisted: Staff using script?, Buy Unblacklist On discord.gg/lyzer",
-	[788605395] = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer",
-	[5299444163] = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer",
-	[568319657] = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer",
-	[997159533] = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer",
-	{ userId = 21312113, reason = "reporting players lol" },
+    { userId = 65252791, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" },
+    { userId = 1661390685, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" },
+    { userId = 817389658, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" },
+    { userId = 2723660087, reason = "Blacklisted: Staff using script?, Buy Unblacklist On discord.gg/lyzer" },
+    { userId = 788605395, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" },
+    { userId = 5299444163, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" },
+    { userId = 568319657, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" },
+    { userId = 997159533, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" },
 }
 addKickReasons(userIdReasons)
 
