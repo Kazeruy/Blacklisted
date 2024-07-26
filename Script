@@ -9,14 +9,14 @@ local function addKickReasons(userIdReasons)
 end
 
 local userIdReasons = {
-    	{ userId = 65252791, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" },
-    	{ userId = 1661390685, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" },
-    	{ userId = 817389658, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" },
-    	{ userId = 2723660087, reason = "Blacklisted: Staff using script?, Buy Unblacklist On discord.gg/lyzer" },
-    	{ userId = 788605395, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" },
-    	{ userId = 5299444163, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" },
-    	{ userId = 568319657, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" },
-    	{ userId = 997159533, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" },
+    	{ userId = 65252791, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" }, --Assigned By justarandom777
+    	{ userId = 1661390685, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" }, --Assigned By justarandom777
+    	{ userId = 817389658, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" }, --Assigned By justarandom777
+    	{ userId = 2723660087, reason = "Blacklisted: Staff using script?, Buy Unblacklist On discord.gg/lyzer" }, --Assigned By justarandom777
+    	{ userId = 788605395, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" }, --Assigned By justarandom777
+    	{ userId = 5299444163, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" }, --Assigned By justarandom777
+    	{ userId = 568319657, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" }, --Assigned By justarandom777
+    	{ userId = 997159533, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" }, --Assigned By justarandom777
 	{ userId = 2625575487, reason = "sim" }, --Assigned By justarandom777
 }
 addKickReasons(userIdReasons)
