@@ -9,23 +9,25 @@ local function addKickReasons(userIdReasons)
 end
 
 local userIdReasons = {
-    { userId = 65252791, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" }, --Assigned By justarandom777
-    { userId = 1661390685, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" }, --Assigned By justarandom777
-    { userId = 817389658, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" }, --Assigned By justarandom777
-    { userId = 2723660087, reason = "Blacklisted: Staff using script?, Buy Unblacklist On discord.gg/lyzer" }, --Assigned By justarandom777
-    { userId = 788605395, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" }, --Assigned By justarandom777
-    { userId = 5299444163, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" }, --Assigned By justarandom777
-    { userId = 568319657, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" }, --Assigned By justarandom777
-    { userId = 997159533, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" }, --Assigned By justarandom777
-    { userId = 3195608373, reason = "x9" }, --Assigned By kom005
-    { userId = 5737697575, reason = "Blacklisted: Helper Using Script?" }, --Assigned By justarandom777
-    { userId = 4296116814, reason = "judas, reporting players" }, --Assigned By kom005
-    { userId = 413280798, reason = "Blacklisted, reason: you know" }, --Assigned By justarandom777
-    { userId = 2382712547, reason = "Blacklisted: Reporting Players" }, --Assigned By justarandom777
-    { userId = 4507286962, reason = "zoando o script e ainda usa? rapaz..." }, --Assigned By justarandom777
-    { userId = 3014263977, reason = "zoando o script e ainda usa? rapaz..." }, --Assigned By justarandom777
+    	{ userId = 65252791, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" }, --Assigned By justarandom777
+    	{ userId = 1661390685, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" }, --Assigned By justarandom777
+    	{ userId = 817389658, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" }, --Assigned By justarandom777
+    	{ userId = 2723660087, reason = "Blacklisted: Staff using script?, Buy Unblacklist On discord.gg/lyzer" }, --Assigned By justarandom777
+    	{ userId = 788605395, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" }, --Assigned By justarandom777
+    	{ userId = 5299444163, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" }, --Assigned By justarandom777
+    	{ userId = 568319657, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" }, --Assigned By justarandom777
+    	{ userId = 997159533, reason = "Blacklisted: Reporting Players, Buy Unblacklist On discord.gg/lyzer" }, --Assigned By justarandom777
+    	{ userId = 3195608373, reason = "x9" }, --Assigned By kom005
+    	{ userId = 5737697575, reason = "Blacklisted: Helper Using Script?" }, --Assigned By justarandom777
+    	{ userId = 4296116814, reason = "judas, reporting players" }, --Assigned By kom005
+    	{ userId = 413280798, reason = "Blacklisted, reason: you know" }, --Assigned By justarandom777
+    	{ userId = 2382712547, reason = "Blacklisted: Reporting Players" }, --Assigned By justarandom777
+    	{ userId = 4507286962, reason = "zoando o script e ainda usa? rapaz..." }, --Assigned By justarandom777
+    	{ userId = 3014263977, reason = "zoando o script e ainda usa? rapaz..." }, --Assigned By justarandom777
 	{ userId = 2252323838, reason = "usa não né?" }, --Assigned By justarandom777
 	{ userId = 520554057, reason = "Again..." }, --Assigned By justarandom777
+	{ userId = 741889798, reason = "we gave you a chance xd" }, --Assigned By justarandom777
+	{ userId = 1912301375, reason = "test..." }, --Assigned By justarandom777
 }
 addKickReasons(userIdReasons)
 
