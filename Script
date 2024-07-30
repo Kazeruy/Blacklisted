@@ -22,6 +22,7 @@ local userIdReasons = {
 	{ userId = 520554057, reason = "Judas, buy unblacklist in discord.gg/lyzer" }, --Assigned By vodizera
 	{ userId = 4296116814, reason = "judas, reporting players" }, --Assigned By kom005
 	{ userId = 413280798, reason = "Blacklisted, reason: you know" }, --Assigned By justarandom777
+	{ userId = 4606575009, reason = "Blacklisted: Dm justarandom777 on Discord to Buy Unblacklist" }, --Assigned By justarandom777
 }
 addKickReasons(userIdReasons)
 
