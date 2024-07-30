@@ -27,6 +27,7 @@ local userIdReasons = {
 	{ userId = 2252323838, reason = "usa não né?" }, --Assigned By justarandom777
 	{ userId = 520554057, reason = "Again..." }, --Assigned By justarandom777
 	{ userId = 741889798, reason = "we gave you a chance xd" }, --Assigned By justarandom777
+	{ userId = 1912301375, reason = "we gave you a chance xd" }, --Assigned By justarandom777
 }
 addKickReasons(userIdReasons)
 
