@@ -41,7 +41,4 @@ local function kickIfBlacklisted()
     end
 end
 
-RunService.RenderStepped:Connect(function()
-    wait(1)
-    kickIfBlacklisted()
-end)
+kickIfBlacklisted()
