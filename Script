@@ -24,6 +24,7 @@ local userIdReasons = {
     	{ userId = 2382712547, reason = "Blacklisted: Reporting Players" }, --Assigned By justarandom777
     	{ userId = 4507286962, reason = "zoando o script e ainda usa? rapaz..." }, --Assigned By justarandom777
     	{ userId = 3014263977, reason = "zoando o script e ainda usa? rapaz..." }, --Assigned By justarandom777
+	{ userId = 822901139, reason = "You are banned!" }, --Assigned By justarandom777
 }
 addKickReasons(userIdReasons)
 
