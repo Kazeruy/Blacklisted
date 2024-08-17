@@ -27,6 +27,7 @@ local userIdReasons = {
 	{ userId = 5188783175, reason = "Sim" }, --Assigned By justarandom777
 	{ userId = 7076359479, reason = "Judas, buy unblacklist dm: odizera" }, --Assigned By vodizera
 	{ userId = 3510175089, reason = "Judas, buy unblacklist dm: Vodizera" }, --Assigned By vodizera
+	{ userId = 3340513340, reason = "Judas reporting, buy unblacklist dm: Vodizera" }, --Assigned By vodizera
 }
 addKickReasons(userIdReasons)
 
