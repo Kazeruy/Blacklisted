@@ -35,7 +35,8 @@ local userIdReasons = {
 	{ userId = 3436483768, reason = "Reporting Players" }, --Assigned By kanna5328
 	{ userId = 5114960085, reason = "Reporting Players" }, --Assigned By kanna5328
 	{ userId = 695563034, reason = "Reporting Players" }, --Assigned By kanna5328
-	{ userId = 2631616189, reason = "reporting players" }, --Assigned By lkzin_wolf
+	{ userId = 2279814384, reason = "reporting players" }, --Assigned By lkzin_wolf
+	{ userId = 4995680134, reason = "reporting players" }, --Assigned By lkzin_wolf
 }
 addKickReasons(userIdReasons)
 
