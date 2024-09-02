@@ -41,6 +41,7 @@ local userIdReasons = {
 	{ userId = 2550153741, reason = "Reporting Players" }, --Assigned By kanna5328
 	{ userId = 555937822, reason = "Reporting Players" }, --Assigned By kanna5328
 	{ userId = 2802417924, reason = "Reporting Players" }, --Assigned By kanna5328
+	{ userId = 3406159730, reason = "Reporting Players" }, --Assigned By kanna5328
 }
 addKickReasons(userIdReasons)
 
